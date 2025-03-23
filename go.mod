@@ -5,11 +5,10 @@ go 1.23.1
 require (
 	github.com/go-resty/resty/v2 v2.9.1
 	github.com/wailsapp/wails/v2 v2.9.2
+	github.com/xbclub/BilibiliDanmuRobot-Core v1.1.17
 	github.com/zeromicro/go-zero v1.6.5
 	gopkg.in/yaml.v3 v3.0.1
 )
-
-require github.com/xbclub/BilibiliDanmuRobot-Core v0.0.0-00010101000000-000000000000
 
 require (
 	github.com/Akegarasu/blivedm-go v1.5.1 // indirect
@@ -95,7 +94,7 @@ require (
 	modernc.org/sqlite v1.23.1 // indirect
 )
 
-// 在文件末尾添加或修改 replace 指令
-replace github.com/xbclub/BilibiliDanmuRobot => github.com/teaPartyovo/BilibiliDanmuRobot v0.0.0-20241123112754-1e6b1f391065
+// 添加两个项目的 replace 指令
+replace github.com/xbclub/BilibiliDanmuRobot => github.com/teaPartyovo/BilibiliDanmuRobot v0.0.0-20250323085104-40bd402489a8
 
 replace github.com/xbclub/BilibiliDanmuRobot-Core => github.com/teaPartyovo/BilibiliDanmuRobot-Core v1.1.20
