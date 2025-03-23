@@ -98,4 +98,4 @@ require (
 // 在文件末尾添加或修改 replace 指令
 replace github.com/xbclub/BilibiliDanmuRobot => github.com/teaPartyovo/BilibiliDanmuRobot v0.0.0-20241123112754-1e6b1f391065
 
-replace github.com/xbclub/BilibiliDanmuRobot-Core => github.com/teaPartyovo/BilibiliDanmuRobot-Core v1.1.19
+replace github.com/xbclub/BilibiliDanmuRobot-Core => github.com/teaPartyovo/BilibiliDanmuRobot-Core v1.1.20
